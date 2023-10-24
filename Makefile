@@ -4,7 +4,6 @@
 #
 
 CC = gcc
-CCFLAGS = -Wall -Wextra -O3
 TARGET = angry-purple-tiger
 
 INCLUDES = -I.

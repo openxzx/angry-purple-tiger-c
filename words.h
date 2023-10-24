@@ -1,7 +1,7 @@
 #ifndef WORDS_H
 #define WORDS_H
 
-char * adjectives[] = {
+const char * adjectives[] = {
     "attractive",
     "bald",
     "beautiful",
@@ -260,7 +260,7 @@ char * adjectives[] = {
     "sleepy",
 };
 
-char * colors[] = {
+const char * colors[] = {
     "white",
     "pearl",
     "alabaster",
@@ -519,7 +519,7 @@ char * colors[] = {
     "chili",
 };
 
-char * animals[] = {
+const char * animals[] = {
     "alligator",
     "bee",
     "bird",
