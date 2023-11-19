@@ -3,7 +3,7 @@
 # For details see the UNLICENSE file at the root of the source tree.
 #
 
-CC = gcc
+CC := gcc
 TARGET = angry-purple-tiger
 
 INCLUDES = -I.
