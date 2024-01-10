@@ -6,8 +6,8 @@
 CC := gcc
 TARGET = angry-purple-tiger
 
-INCLUDES = -I.
-CSRCS = main.c md5.c
+INCLUDES = -I. -Imd5
+CSRCS = main.c md5/md5.c
 
 OBJS := $(addsuffix .o, $(basename $(CSRCS)))
 
